@@ -44,29 +44,49 @@
 
 ### DATASET 
 
-#### 🪑 Triple Seat Data
+<div style="display:flex; justify-content: space-around; gap: 20px;">
 
-| Dataset          | Source    | Size  |
-|------------------|-----------|-------|
-| Traffic Violation | Roboflow | 454   |
-| Triple Ride       | Roboflow | 3,000 |
-| Google Images     | Google   | 300   |
+  <!-- Triple Seat Data -->
+  <div>
+    <h3 style="background-color:#ff9933; padding:6px; border-radius:6px; text-align:center; color:white;">
+      Triple Seat Data
+    </h3>
+    <table>
+      <tr><th>Dataset</th><th>Source</th><th>Size</th></tr>
+      <tr><td>Traffic Violation</td><td>Roboflow</td><td>454</td></tr>
+      <tr><td>Triple Ride</td><td>Roboflow</td><td>3,000</td></tr>
+      <tr><td>Google Images</td><td>Google</td><td>300</td></tr>
+    </table>
+  </div>
 
-#### 🪖 Helmet Data
+  <!-- Helmet Data -->
+  <div>
+    <h3 style="background-color:#ffcc00; padding:6px; border-radius:6px; text-align:center; color:white;">
+      Helmet Data
+    </h3>
+    <table>
+      <tr><th>Dataset</th><th>Source</th><th>Size</th></tr>
+      <tr><td>helmet-2</td><td>Roboflow</td><td>3,774</td></tr>
+      <tr><td>helmet-1</td><td>Roboflow</td><td>2,420</td></tr>
+      <tr><td>Helmet Detection-I</td><td>Roboflow</td><td>523</td></tr>
+      <tr><td>Helmet Dataset-I</td><td>Roboflow</td><td>523</td></tr>
+      <tr><td>helmet-detection-20241117</td><td>Roboflow</td><td>4,110</td></tr>
+      <tr><td>Helmet Wearing Image Dataset: 13th reference</td><td>Mendeley</td><td>13,780</td></tr>
+    </table>
+  </div>
 
-| Dataset                              | Source    | Size   |
-|--------------------------------------|-----------|--------|
-| helmet-2                             | Roboflow  | 3,774  |
-| helmet-1                             | Roboflow  | 2,420  |
-| Helmet Detection-I                   | Roboflow  | 523    |
-| Helmet Dataset-I                     | Roboflow  | 523    |
-| helmet-detection-20241117            | Roboflow  | 4,110  |
-| Helmet Wearing Image Dataset: 13th reference | Mendeley Data | 13,780 |
+  <!-- Number Plate Data -->
+  <div>
+    <h3 style="background-color:#ff6600; padding:6px; border-radius:6px; text-align:center; color:white;">
+      Number Plate Data
+    </h3>
+    <table>
+      <tr><th>Dataset</th><th>Source</th><th>Size</th></tr>
+      <tr><td>License-Plate-Detection-2</td><td>Roboflow</td><td>2,460</td></tr>
+      <tr><td>ANPR_PROJECT</td><td>Roboflow</td><td>8,270</td></tr>
+      <tr><td>Vehicle-Registration-Plates-2</td><td>Roboflow</td><td>21,175</td></tr>
+    </table>
+  </div>
 
-#### 🔢 Number Plate Data
+</div>
 
-| Dataset                       | Source   | Size   |
-|-------------------------------|----------|--------|
-| License-Plate-Detection-2     | Roboflow | 2,460  |
-| ANPR_PROJECT                  | Roboflow | 8,270  |
-| Vehicle-Registration-Plates-2 | Roboflow | 21,175 |
