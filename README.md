@@ -1,4 +1,4 @@
-# SafeRide: Automatic Detection of Traffic Violations using YOLOv11-Based Object Detection
+<img width="727" height="451" alt="image" src="https://github.com/user-attachments/assets/445529e6-5229-486d-a591-67c14d86c0c4" /># SafeRide: Automatic Detection of Traffic Violations using YOLOv11-Based Object Detection
 
 ## INTRODUCTION
 
@@ -90,11 +90,28 @@
 - A total of 4,736 triple-seat riding images were generated, boosting dataset diversity and model robustness.
 - Color conversion techniques were applied on helmet data as well as number plate data to increase the size of dataset.
 
-## ALGORITHMS USED
+### Algorithms Used
 <p align="center" style="display:flex; justify-content:center; gap:20px;">
   <img src="https://github.com/user-attachments/assets/80bdeb0a-ea2c-4667-a725-69b2fdc7b7b6" width="450" height="300" style="border:1px solid #ccc; border-radius:6px;" />
   <img src="https://github.com/user-attachments/assets/c9ed6224-5774-47ad-91d1-8b043be63a98" width="450" height="300" style="border:1px solid #ccc; border-radius:6px;" />
 </p>
 
+### Hyperparameters
+
+| **Hyperparameter** | **Settings**                          |
+|---------------------|---------------------------------------|
+| Image Size          | 640 × 640 pixels                     |
+| Batch Size          | 16 / 32                              |
+| Epochs              | 50–100                               |
+| Learning Rate       | 0.01                                 |
+| Optimizer           | Stochastic Gradient Descent (SGD)    |
+| Weight Decay        | 0.0005                               |
+| Momentum            | 0.937                                |
 
 
+### Proposed System Architecture
+
+<img width="1140" height="747" alt="WEB-APP FRAMEWORK" src="https://github.com/user-attachments/assets/59d761e6-b387-40c8-94d3-2f0f9975a156" />
+
+## IMPLEMENTATION 
+<img width="507" height="290" alt="image" src="https://github.com/user-attachments/assets/64ca4e37-7790-4e91-82e3-732bbf6a6312" />
