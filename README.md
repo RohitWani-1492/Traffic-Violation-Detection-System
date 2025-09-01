@@ -1,4 +1,4 @@
-<img width="727" height="451" alt="image" src="https://github.com/user-attachments/assets/445529e6-5229-486d-a591-67c14d86c0c4" /># SafeRide: Automatic Detection of Traffic Violations using YOLOv11-Based Object Detection
+# SafeRide: Automatic Detection of Traffic Violations using YOLOv11-Based Object Detection
 
 ## INTRODUCTION
 
