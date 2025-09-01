@@ -91,9 +91,10 @@
 - Color conversion techniques were applied on helmet data as well as number plate data to increase the size of dataset.
 
 ## ALGORITHMS USED
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/5b86e7ed-e4a2-40fb-ac26-e2dbab185263" width="500" height="300" />
-  <img src="https://github.com/user-attachments/assets/c9ed6224-5774-47ad-91d1-8b043be63a98" width="500" height="300" />
+<p align="center" style="display:flex; justify-content:center; gap:20px;">
+  <img src="https://github.com/user-attachments/assets/5b86e7ed-e4a2-40fb-ac26-e2dbab185263" width="450" height="300" style="border:1px solid #ccc; border-radius:6px;" />
+  <img src="https://github.com/user-attachments/assets/c9ed6224-5774-47ad-91d1-8b043be63a98" width="450" height="300" style="border:1px solid #ccc; border-radius:6px;" />
 </p>
+
 
 
