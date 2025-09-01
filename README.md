@@ -42,7 +42,7 @@
 
 ## METHODOLOGY 
 
-### DATASET 
+### Dataset
 
 #### 🪑 Triple Seat Data
 
@@ -71,4 +71,25 @@
 | ANPR_PROJECT                  | Roboflow | 8,270  |
 | Vehicle-Registration-Plates-2 | Roboflow | 21,175 |
 
+- For standard motorcycle usage, 8,000 images were web scraped from Google and various websites such as Pexels, Pixabay and Unsplash. After cleaning 5,542 images were obtained which were further annotated.
+- For no-helmet instances, we utilized the Face-Detection-Dataset from Kaggle consisting of 13,400 images, which was already annotated in YOLO format.  After cleaning the dataset, 2,731 images were retained and was further expanded to 13,655 using data augmentation techniques
+
+#### 🧪 Train-Test-Validation Split
+
+| Dataset                  | Training Set | Test Set | Valid Set |
+|---------------------------|--------------|----------|-----------|
+| 🏍️ Motorcycle Detection   | 8,873        | 1,110    | 1,109     |
+| 🪖 Helmet Detection       | 24,892       | 3,111    | 3,113     |
+| 🔢 Number Plate Detection | 45,247       | 5,656    | 5,656     |
+
+### Data Augmentation
+- Original 300 triple seat images were expanded to 1,800 using flipping, rotation (±25°), and shearing (±8°) techniques.
+- 50% of the images were enhanced using Gaussian blur with a sigma range of 0 to 0.5.
+- Contrast (0.75x–1.5x) and lightness (0.8x–1.2x) adjustments were applied to all images.
+- Color conversion techniques—color swapping, grayscale, and sepia—were used. 
+- A total of 4,736 triple-seat riding images were generated, boosting dataset diversity and model robustness.
+- Color conversion techniques were applied on helmet data as well as number plate data to increase the size of dataset.
+
+## ALGORITHMS USED
+<img width="507" height="316" alt="image" src="https://github.com/user-attachments/assets/5b86e7ed-e4a2-40fb-ac26-e2dbab185263" /> <img width="1404" height="642" alt="PADDLE OCR " src="https://github.com/user-attachments/assets/c9ed6224-5774-47ad-91d1-8b043be63a98" />
 
