@@ -128,7 +128,7 @@
 
 <!-- Third Row (Mobile Screenshot) -->
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/01291d30-4e8a-4dbb-b9f4-84f2124ae335" width="250" />
+  <img src="https://github.com/user-attachments/assets/01291d30-4e8a-4dbb-b9f4-84f2124ae335" width="250" height="600" />
 </p>
 
 
