@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorcycle Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Traffic Violation System using YOLOv11</h1>
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".mp4,.avi,.mov" required>
+            <button type="submit">Upload and Process</button>
+        </form>
+
+        {% if input_video and output_video %}
+        <div class="video-container">
+            <div class="video-wrapper">
+                <h2>Input Video</h2>
+                <video controls>
+                    <source src="{{ url_for('uploaded_file', filename=input_video) }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="video-wrapper">
+                <h2>Output Video</h2>
+                <video controls>
+                    <source src="{{ url_for('uploaded_file', filename=output_video) }}" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
