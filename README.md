@@ -92,7 +92,7 @@
 
 ## ALGORITHMS USED
 <p align="center" style="display:flex; justify-content:center; gap:20px;">
-  <img src="https://github.com/user-attachments/assets/5b86e7ed-e4a2-40fb-ac26-e2dbab185263" width="450" height="300" style="border:1px solid #ccc; border-radius:6px;" />
+  <img src="https://github.com/user-attachments/assets/80bdeb0a-ea2c-4667-a725-69b2fdc7b7b6" width="450" height="300" style="border:1px solid #ccc; border-radius:6px;" />
   <img src="https://github.com/user-attachments/assets/c9ed6224-5774-47ad-91d1-8b043be63a98" width="450" height="300" style="border:1px solid #ccc; border-radius:6px;" />
 </p>
 
